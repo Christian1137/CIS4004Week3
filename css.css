@@ -1,0 +1,86 @@
+#jumpMenu {
+    text-align: center;
+    position: fixed;
+    background-color: yellow;
+    left: 0;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: red;
+    top: 0;
+    height: 13%;
+    right: 0px;
+    width: 90%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+header nav button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+header p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%; 
+    margin-top: 0%; 
+    width: 90%; 
+
+}
+
+#container article {
+    width: 300px; 
+    margin: 10px; 
+}
+
+main h1 {
+    font-size: 30px;
+    margin-top: 13%;
+    margin-left: 10%; 
+    width: 90%; 
+    text-align: center; 
+    
+}
+
+#thanks {
+    position: fixed;
+    font-size: 30px;
+    bottom: 0;
+    right: 0;
+    border: 2px solid black; 
+    text-align: center;
+    padding: 10px; 
+    background-color: rgb(93, 182, 204); 
+    margin: 0;
+
+}
